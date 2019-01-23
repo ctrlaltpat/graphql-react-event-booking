@@ -1,15 +1,15 @@
 {
   "name": "graphql-react-event-booking",
   "version": "1.0.0",
-  "description": "",
+  "description": "A mini project using GraphQL, Node, MongoDB and React",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon app.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Pat",
+  "license": "MIT",
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
