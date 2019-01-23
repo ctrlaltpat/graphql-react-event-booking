@@ -74,25 +74,3 @@ mongoose.connect(`mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PA
   }).catch(err => {
     console.log(err)
   })
-
-
-
-// query {
-//   events {
-//     _id
-//     title
-//     description
-//   }
-// }
-
-// # mutation {
-// #   createEvent(eventInput: {
-// #     title:"A title",
-// #     description:"This works... omg",
-// #     price: 29.99,
-// #     date: "2019-01-21T22:51:07.782Z"
-// #   }) {
-// #     title
-// #     description
-// #   }
-// # }
